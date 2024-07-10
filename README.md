@@ -11,14 +11,14 @@ Toko ingin mengetahui 3 hal :
 3. Behaviour customer untuk metode pembelian (online/offline)
 
 # Tahap-tahap yang Dilakukan
-## 1. Data Understanding dan Cleaning
+### 1. Data Understanding dan Cleaning
 - Dataset memiliki 2240 baris dan 29 kolom
 - Dataset ini memiliki nilai data kosong pada kolom `Income` sebanyak 24 baris
 - Data kosong ini bisa kita gantikan dengan nilai 0, tidak perlu dihapus dikarenakan kita bisa beranggapan bahwa customer tersebut tidak memiliki income (tidak bekerja)
 - Pada kolom Marital_Status, valuenya berisikan Single, Together, Married, Divorced, Widow, Alone, Absurd, YOLO. Untuk case ini, kita akan membuatnya menjadi 2 jenis saja yaitu Married dan Single.
 - Pada kolom Dt_Customer, akan kita konversikan menjadi tahun sehingga kita bisa menambahkan kolom Age
   
-## 2. Data Analysis
+### 2. Data Analysis
 Menganalisa dataset berdasaarkan beberapa pendekatan :
 - Jumlah komplain berdasarkan `ID`, `Education`, `Marital_Status`, `Income`
 - Jenis produk yang diminati berdasarkan `Jumlah Transaksi`, `Value Transaksi`, `Income`
@@ -26,10 +26,10 @@ Menganalisa dataset berdasaarkan beberapa pendekatan :
 - Bentuk `Campaign` yang paling efisien
 - Jumlah transaksi pada channel `Offline` dan `Online`
 
-## 3. Membuat kesimpulan beserta rekomendasi kepada customer
+### 3. Membuat kesimpulan beserta rekomendasi kepada customer
 Memberikan kesimpulan berdasarkan data analysis dan juga rekomendasi yang bertujuan untuk meningkatkan pendapatan supermarket
 
-## 4. Membuat dashboard monitoring 
+### 4. Membuat dashboard monitoring 
 Membuat dashboard pada tableau yang bertujuan agar memudahkan pihak supermarket untuk memonitoring penjualannya.
 
 # Penutup
